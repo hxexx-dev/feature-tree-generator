@@ -1,0 +1,62 @@
+{
+          "name": "combat-framework",
+          "tree": {
+                    "$className": "DataModel",
+                    "ReplicatedStorage": {
+                              "assets": {
+                                        "$className": "Folder",
+                                        "$ignoreUnknownInstances": true
+                              },
+                              "rbxts_include": {
+                                        "$path": "include",
+                                        "node_modules": {
+                                                  "$className": "Folder",
+                                                  "@rbxts": {
+                                                            "$path": "node_modules/@rbxts"
+                                                  },
+                                                  "@flamework": {
+                                                            "$path": "node_modules/@flamework"
+                                                  }
+                                        }
+                              },
+                              "ts_shared": {
+                                        "$className": "Folder",
+                                        "features": {
+                                                  "$className": "Folder",
+                                                  "character": {
+                                                            "$className": "Folder",
+                                                            "$path": "out\\features\\character"
+                                                  }
+                                        }
+                              }
+                    },
+                    "ServerScriptService": {
+                              "ts_server": {
+                                        "$className": "Folder",
+                                        "features": {
+                                                  "$className": "Folder",
+                                                  "character": {
+                                                            "$className": "Folder",
+                                                            "$path": "out\\features\\character"
+                                                  },
+                                                  "inventory": {
+                                                            "$className": "Folder",
+                                                            "$path": "out\\features\\inventory"
+                                                  }
+                                        }
+                              }
+                    },
+                    "StarterPlayer": {
+                              "$ignoreUnknownInstances": true,
+                              "StarterPlayerScripts": {
+                                        "features": {
+                                                  "$className": "Folder",
+                                                  "inventory": {
+                                                            "$className": "Folder",
+                                                            "$path": "out\\features\\inventory"
+                                                  }
+                                        }
+                              }
+                    }
+          }
+}

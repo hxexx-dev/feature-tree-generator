@@ -1,0 +1,4 @@
+{
+      "compilerOptions": { "target": "ESNext", "module": "NodeNext", "moduleResolution": "NodeNext", "rootDir": "src", "outDir": "out", "types": [ "node" ], "strict": true }, 
+      "include": ["src/**/*.ts"], "exclude": ["out", "node_modules"]
+}

@@ -1,0 +1,9 @@
+{
+      "baseTreePath": "base.json",
+      "outputTabWidth": 10,
+      "projectFileName": "game.project.json",
+      "featuresExplorerPath": "out/features",
+      "environments": {
+            "server": [ "ServerScriptService", "ts_server", "features" ], "client": [ "StarterPlayer", "StarterPlayerScripts", "features" ], "shared": [ "ReplicatedStorage", "ts_shared", "features" ]
+      }
+}
