@@ -8,7 +8,8 @@ export function walk(object: Record<string, unknown>, path: string[]): Record<st
       let current = object
       for (const property of path) {
             const found = current[property]
-            if (found === undefined || found === null || typeof found !== "object") { const directory = {}; current[property] = directory;current = directory } else { current = found as Record<string, unknown> }
+            if (found === undefined || found === null || typeof found !== "object") { 
+                  const directory = { "$className": "Folder" }; current[property] = directory;current = directory } else { current = found as Record<string, unknown> }
       }
       return current
 }
